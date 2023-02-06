@@ -20,4 +20,4 @@ This component generates a list of numbers that can use as the number of buildin
 
 
 
-*Notice that the code is optimized for densities between 2 and 14. If you are working with higher densities, some changes in code may require; or just increase the number of* `start_floor_range` :)
+*Notice that the code is optimized for densities higher than 2 and less than 14. If you are working with higher densities, some changes in code may require; or just increase the value of* `start_floor_range` :)
