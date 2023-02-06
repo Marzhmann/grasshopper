@@ -1,5 +1,5 @@
 '''
-component inputs are:
+component inputs:
     buildings_number
     start_floor_range
     end_floor_range
@@ -7,7 +7,7 @@ component inputs are:
     fprints_area
     iterations
     recompute
-component outputs are:
+component outputs:
     best_floors_match
     result_densities
     best_seed
