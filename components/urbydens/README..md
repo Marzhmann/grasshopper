@@ -1,4 +1,4 @@
-This component generates a list of numbers that can use as the number of buildings story in an urban district to reach the desired urban density.
+This component generates a list of numbers that can be used as the number of buildings story in an urban district to reach the desired urban density.
 
 ---
 
