@@ -4,12 +4,12 @@ This component generates a list of numbers that can be used as the number of bui
 
 ### Inputs:
 - `buildings_number`: The number of buildings in the district
-- `start_floor_range`: Minimum story
-- `end_floor_range`: Maximum Story
+- `start_floor_range`: Minimum buildings story
+- `end_floor_range`: Maximum buildings story
 - `density`: Desired urban district density
-- `fprints_area`: List of buildings' footprint areas. *note that the order of this list is corresponding to the* `best_floors_match` *output list*.
-- `iterations`: The number loops that the component iterates over to find the best matches. *note that increasing the number of this input makes the calculation slower and the solution more accurate*.
-- `recompute`: Connect a "Boolean Toggle" to this input to reset the calculation.
+- `fprints_area`: List of buildings' footprint areas. *note that the order of this list is corresponding to the* `best_floors_match` *list*.
+- `iterations`: The number loops that the component iterates over to find the best matches. *note that increasing the number of this input makes the calculation slower and the solutions more accurate*.
+- `recompute`: Connect a "Boolean Toggle" to this input to recompute calculations.
 
 ### Outputs:
 - `best_floors_match`: The list of numbers that can use as the number of buildings story.
